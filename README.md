@@ -1,2 +1,15 @@
+
+Setup cdktf
+```
 npm install --global cdktf-cli@latest
-cdktf init --template="typescript" --localืย
+```
+
+Convert to Terraform (Synth)
+
+```bash
+pnpm synth
+```
+
+```bash
+pnpm run deploy
+```

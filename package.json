@@ -7,10 +7,8 @@
   "private": true,
   "scripts": {
     "get": "cdktf get",
-    "build": "tsc",
     "synth": "cdktf synth",
-    "compile": "tsc --pretty",
-    "watch": "tsc -w",
+    "deploy": "cdktf deploy",
     "test": "jest",
     "test:watch": "jest --watch",
     "upgrade": "npm i cdktf@latest cdktf-cli@latest",
